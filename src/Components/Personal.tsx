@@ -6,8 +6,8 @@ import { Button } from "@mui/material"
 import {AiOutlineArrowLeft, AiOutlineArrowRight} from "react-icons/ai"
 export const Personal = () => {
     return (
-    <div className="projects">
-    <div className="projects--background">
+    <div className="projects" style={{"height": "250%"}}>
+    <div className="projects--background" style={{"height": "90%"}}>
         <div className="home--about">
             <h1 style={{"textAlign": "center", "fontFamily": "'Times New Roman', Times, serif"}}>Personal Projects:</h1>
         <div>

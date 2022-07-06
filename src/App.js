@@ -10,7 +10,7 @@ import {CoverLetter} from "./Components/CoverLetter.tsx"
 function App() {
   return (
     <Router >
-      <div className="App" style={{}}>
+      <div className="App" style={{"height": "100vh"}}>
       <Sidebar></Sidebar>
       <Routes>
         <Route path="/" element={<Home></Home>} />
