@@ -44,7 +44,7 @@ export const Projects = () => {
                         <h5>Languages used: C#, C++</h5>
                     </div>
                     <div>
-                        <div style={{"float": "left"}}><Link to="/Home" style={{"textDecoration": "none"}}><Button startIcon={<AiOutlineArrowLeft />} style={{"minWidth": "200px", "marginLeft": "5px"}} variant="contained">Home</Button></Link></div>
+                        <div style={{"float": "left"}}><Link to="/" style={{"textDecoration": "none"}}><Button startIcon={<AiOutlineArrowLeft />} style={{"minWidth": "200px", "marginLeft": "5px"}} variant="contained">Home</Button></Link></div>
                         <div style={{"float": "right"}}><Link to="/Personal" style={{"textDecoration": "none"}}><Button endIcon={<AiOutlineArrowRight />} style={{"minWidth": "200px", "marginRight": "5px"}} variant="contained">Personal Projects</Button></Link></div>
                     </div>
                 </div>
