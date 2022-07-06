@@ -13,9 +13,10 @@ function App() {
       <div className="App" style={{}}>
       <Sidebar></Sidebar>
       <Routes>
-        <Route path="/" element={<Home></Home>} />
+        <Route path="/Home" element={<Home></Home>} />
         <Route path="/Info" element={<Info></Info>} />
         <Route path="/Portfolio" element={<Projects></Projects>} />
+        <Route path="/Personal" element={<Personal></Personal>} />
         <Route path="/CoverLetter" element={<CoverLetter></CoverLetter>} />
       </Routes>
       </div>

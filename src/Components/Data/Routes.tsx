@@ -5,7 +5,7 @@ import { FaGamepad } from "react-icons/fa"
 export const SidebarData = [
     {
         title: "Home",
-        path: "/",
+        path: "/Home",
         icon: <AiIcons.AiFillHome></AiIcons.AiFillHome>,
         className: "nav-text"
     },
