@@ -6,7 +6,7 @@ import { Button } from "@mui/material"
 import {AiOutlineArrowLeft, AiOutlineArrowRight} from "react-icons/ai"
 export const Personal = () => {
     return (
-    <div className="projects" style={{"height": "250%"}}>
+    <div className="projects" style={{"height": "290%"}}>
     <div className="projects--background" style={{"height": "90%"}}>
         <div className="home--about">
             <h1 style={{"textAlign": "center", "fontFamily": "'Times New Roman', Times, serif"}}>Personal Projects:</h1>
@@ -18,7 +18,7 @@ export const Personal = () => {
                 <img src={Potato} height="128px" width="128px" style={{"borderRadius": "90px"}}/>
             </div>
             <br/>
-            <p className="TNR" style={{"textAlign": "center"}}>Created several levels for one of the largest communties (over 27.000 members) between 2017 and 2019 for Team Fortress 2, an online multiplayer game. Eventually I became a staff member and was tasked to judge and assess other content creator's levels as well as moderating social media interactions. It involved a lot of teamwork and communication with other staff members and the use of organization tools such as Trello.</p>
+            <p className="TNR" style={{"textAlign": "center"}}>Created several levels for <a href="https://steamcommunity.com/groups/potatomvmservers">one of the largest communties</a> (over 27.000 members) between 2017 and 2019 for Team Fortress 2, an online multiplayer game. Eventually I became a staff member and was tasked to judge and assess other content creator's levels as well as moderating social media interactions. It involved a lot of teamwork and communication with other staff members and the use of organization tools such as Trello.</p>
         </div>
         <br />
         <div>
@@ -28,7 +28,7 @@ export const Personal = () => {
                 <img src={Doom} height="200px" width="320px" style={{"borderRadius": "45px"}}/>
             </div>
             <br />
-            <p className="TNR" style={{"textAlign": "center"}}>Created several levels for DOOM Eternal, a singleplayer game, and documented them on a YouTube channel that reached over 4000+ subscribers. I was only the second person to ever create a custom level, meaning I had to figure out the logic behind the game functinality mostly by myself. I was contacted by id Software, the game developers, but I can't discolse any more information currently as I am under NDA.</p>
+            <p className="TNR" style={{"textAlign": "center"}}>Created several levels for DOOM Eternal, a singleplayer game, and documented them on a <a href="https://www.youtube.com/c/Delta24X">YouTube channel</a> that reached over 4000+ subscribers. I was only the second person to ever create a custom level, meaning I had to figure out the logic behind the game functinality mostly by myself. I was contacted by id Software, the game developers, but I can't discolse any more information currently as I am under NDA.</p>
         </div>
         <br />
         <div>
@@ -38,16 +38,18 @@ export const Personal = () => {
                 <img src={AI} height="200px" width="320px" style={{"borderRadius": "45px"}}/>
             </div>
             <br />
-            <p className="TNR" style={{"textAlign": "center"}}>The university offered an optional 5 day course delving into AI, the following Python scripts were written by me, but I was heavily assisted by Dr. Stephen Lynch who led the workshop.</p>
+            <p className="TNR" style={{"textAlign": "center"}}>The university offered an optional 5 day course delving into AI, <a href="https://drive.google.com/drive/folders/14pJhBSjAmtIe4fv2Uzi3Fn5WeC4VYDGJ?usp=sharing">these Python scripts</a> were written by me, but I was heavily assisted by Dr. Stephen Lynch who led the workshop.</p>
         </div>
         <br />
         <div>
             <h2 className="TNR" style={{"textAlign": "center", "fontFamily": "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif", "marginLeft": "5px", "textDecoration": "underline"}}>NFT trading/selling website - WIP:</h2>
+            <br />  
             <p className="TNR" style={{"textAlign": "center"}}>After recently learning the Solidity programming language for smart contracts I'm currently working on a NFT selling and trading platform, similar to OpenSeas, for a much larger project I would like to develop. It is still in its very early stages and I don't have anything to show as of now.</p>
         </div>
+        <br />
         <div>
             <div style={{"float": "left"}}><Link to="/Portfolio" style={{"textDecoration": "none"}}><Button startIcon={<AiOutlineArrowLeft />} style={{"minWidth": "200px", "marginLeft": "5px"}} variant="contained">Uni portfolio</Button></Link></div>
-            <div style={{"float": "right"}}><Link to="/Info" style={{"textDecoration": "none"}}><Button endIcon={<AiOutlineArrowRight />} style={{"minWidth": "200px", "marginRight": "5px"}} variant="contained">Info</Button></Link></div>
+            <div style={{"float": "right"}}><Link to="/Info" style={{"textDecoration": "none"}}><Button endIcon={<AiOutlineArrowRight />} style={{"minWidth": "200px", "marginRight": "5px"}} variant="contained">Contact & Info</Button></Link></div>
          </div>
         </div>
     </div>

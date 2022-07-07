@@ -37,8 +37,9 @@ export const Info = () => {
                     <p className="TNR" style={{"textAlign": "center"}}>Email: daniel.a.scholes@gmail.com</p>
                     <p className="TNR" style={{"textAlign": "center"}}>Tel: +44 7876633143</p>
                 </div>
+                <br />
                 <div>
-                    <div style={{"float": "left"}}><Link to="/Portfolio" style={{"textDecoration": "none"}}><Button startIcon={<AiOutlineArrowLeft />} style={{"minWidth": "200px", "marginLeft": "5px"}} variant="contained">Personal Projects</Button></Link></div>
+                    <div style={{"float": "left"}}><Link to="/Personal" style={{"textDecoration": "none"}}><Button startIcon={<AiOutlineArrowLeft />} style={{"minWidth": "200px", "marginLeft": "5px"}} variant="contained">Personal Projects</Button></Link></div>
                     <div style={{"float": "right"}}><Link to="/CoverLetter" style={{"textDecoration": "none"}}><Button endIcon={<AiOutlineArrowRight />} style={{"minWidth": "200px", "marginRight": "5px"}} variant="contained">Cover Letter</Button></Link></div>
                  </div>
             </div>

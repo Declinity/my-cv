@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom"
+import { Button } from "@mui/material"
+import {AiOutlineArrowLeft, AiOutlineArrowRight} from "react-icons/ai"
 export const CoverLetter = () => {
     return(
-    <div className="home">
+    <div className="home" style={{"height": "110%"}}>
         <div className="home--background">
             {/* change this for violet height */}
             <div className="home--about" style={{"height": "83%"}}>
@@ -11,6 +14,9 @@ export const CoverLetter = () => {
 I’m confident that this placement would be beneficial for both for my own development and the Greater Manchester AI Foundry, I can promise right now to treat any task given with the utmost care and priority.
 </p><p className="TNR" style={{"textAlign": "center", "paddingTop": "10px"}}>And finally, a big thank you for reading my CV and cover note.
 </p>
+<br />
+<div style={{"float": "left"}}><Link to="/Info" style={{"textDecoration": "none"}}><Button startIcon={<AiOutlineArrowLeft />} style={{"minWidth": "200px", "marginLeft": "5px"}} variant="contained">Contact & Info</Button></Link></div>
+
             </div>
         </div>
     </div>)
