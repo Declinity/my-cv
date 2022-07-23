@@ -2,6 +2,7 @@ import "./Styles/Home.css"
 import me from "../Media/Me.jpg"
 import { Button } from "@mui/material"
 import { Link } from "react-router-dom"
+import { Text } from "./Data/Text.tsx"
 
 export const Home = () => {
     return (
@@ -15,7 +16,7 @@ export const Home = () => {
                         <img src={me} height="128px" width="128px" style={{"borderRadius": "90px"}}/>
                     </div>
                     <br />
-                    <p style={{"paddingLeft": "10px", "paddingTop": "10px", "fontFamily": "'Times New Roman', Times, serif", "fontSize": "20px"}}>My name is Daniel Scholes and I'm currently undertaking a Computer Science degree at Manchester Metropolitan University. I've always been passionate about technology since a young age, I was learning about the Linux OS when I was 12 and starting coding in Python at the age of 16. I'm always striving to learn more and to improve current skills, and it's why I love to work with other like minded teams to achieve a goal. To find out more please use the sidebar or click any of the following buttons: </p>
+                    <p style={{"paddingLeft": "10px", "paddingTop": "10px", "fontFamily": "'Times New Roman', Times, serif", "fontSize": "20px"}}>{Text.Home}</p>
                     <div style={{"display": "flex", "justifyContent": "center", "marginTop": "10px"}}>
                         <Link to="/Portfolio" style={{"textDecoration": "none"}}><Button style={{"minWidth": "200px", "marginRight": "45px"}} variant="contained">Uni Portfolio</Button></Link>
                         <Link to="/Personal" style={{"textDecoration": "none"}}><Button style={{"minWidth": "200px"}} variant="contained">Personal Projects</Button></Link>
