@@ -52,13 +52,34 @@ export const CoverLetter = () => {
                 <br />
                 {error !== "" && error}
                 {coverLetter}
+                {/**this is not good */}
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <div style={{"float": "left"}}><Link to="/Info" style={{"textDecoration": "none"}}><Button startIcon={<AiOutlineArrowLeft />} style={{"minWidth": "200px", "marginLeft": "5px"}} variant="contained">Contact & Info</Button></Link></div>
+
             </div> : 
-            <div className="CL--about" style={{"height": "83%", "textAlign": "center"}} >
+            <div className="CL--about" style={{"height": "88%", "textAlign": "center"}} >
                 <h1 className="TNR" style={{"textAlign": "center", "fontFamily": "'Times New Roman', Times, serif"}}>Cover Letter - {company.charAt(0).toUpperCase() + company.slice(1)}:</h1>
                 <br></br>
                 <div>
                     {coverLetter}
                 </div>
+                <br />
+                <div style={{"float": "left"}}><Link to="/Info" style={{"textDecoration": "none"}}><Button startIcon={<AiOutlineArrowLeft />} style={{"minWidth": "200px", "marginLeft": "5px"}} variant="contained">Contact & Info</Button></Link></div>
             </div>}
         </div>
     </div>)
